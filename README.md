@@ -1,0 +1,2 @@
+# Pseudocodigos-
+trabajos de  algoridmos 
