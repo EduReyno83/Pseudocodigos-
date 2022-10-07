@@ -1,0 +1,15 @@
+Algoritmo Numero_mayor_entre_numero_menor
+	Definir a, b como entero;
+	escribir "ingrese primer valor";
+	leer a;
+	escribir "ingrese segundo valor";
+	leer b;
+	si (a > b) entonces;
+		escribir "el resultado es: ", a, " ",  b;
+	sino 
+		si (b > a) entonces;
+		escribir "el resultado es; ", b, " ", a;
+	Finsi
+	FinSi
+	
+FinAlgoritmo

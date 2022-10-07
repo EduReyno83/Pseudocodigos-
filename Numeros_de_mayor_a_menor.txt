@@ -1,0 +1,32 @@
+Algoritmo Numeros_de_mayor_a_menor
+	Definir a,b,c Como Entero
+	Escribir 'ingrese primer valor'
+	Leer a
+	Escribir 'ingrese segundo valor'
+	Leer b
+	Escribir 'ingrese tercer valor'
+	Leer c
+	Si (a>b Y a>c) Y (b<a Y b>c) Entonces
+		Escribir 'el resultado es: ',a,' ',b,' ',c
+	SiNo
+		Si (b>a Y b>c) Y (a<b Y a>c) Entonces
+			Escribir 'el resultado es: ',b,' ',a,' ',c
+		SiNo
+			Si (c>a Y c>b) Y (a<c Y a>b) Entonces
+				Escribir 'el resultado es: ',c,' ',a,' ',b
+			SiNo
+				Si (a>c Y a>b) Y (c<a Y c>b) Entonces
+					Escribir 'el resultado es; ',a,' ',c,' ',b
+				SiNo
+					Si (b>c Y b>a) Y (c<b Y c>a) Entonces
+						Escribir 'el resultado es: ',b,' ',c,' ',a
+					SiNo
+						Si (c>b Y c>a) Y (b<c Y b>a) Entonces
+							Escribir 'el resultado es: ',c,' ',b,' ',a
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

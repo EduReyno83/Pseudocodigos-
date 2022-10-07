@@ -1,0 +1,20 @@
+Algoritmo Imprimir_cual_es_el_mayor
+	Definir a,b,c Como Entero
+	Escribir 'escribe primer numero'
+	Leer a
+	Escribir 'escribe segundo numero'
+	Leer b
+	Escribir 'escribe tercer numero'
+	Leer c
+	Si (a>b) Y (a>c) Entonces
+		Escribir 'el numero mayor es:',a
+	SiNo
+		Si (b>a) Y (b>c) Entonces
+			Escribir 'el numero mayor es: ',b
+		SiNo
+			Si (c>a) Y (c>b) Entonces
+				Escribir 'el numero mayor es: ',c
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

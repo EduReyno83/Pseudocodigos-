@@ -1,0 +1,10 @@
+Algoritmo triangulo
+	Definir B, H como entero
+    escribir "ingrese base";
+    leer B;
+    escribir "ingrese altura";
+    leer H;
+    Multiplicar<- B*H;
+    dividir<- multiplicar/2;
+    escribir "resultado es: ", dividir;
+FinAlgoritmo

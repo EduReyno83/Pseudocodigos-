@@ -1,0 +1,8 @@
+Algoritmo area_de_circulo
+	Definir radio,area,Pii Como Real
+	Pii <- 3.1416
+	Escribir 'ingresa radio'
+	Leer radio
+	area <- Pii*(radio*radio)
+	Escribir 'resultado es: ',area
+FinAlgoritmo
